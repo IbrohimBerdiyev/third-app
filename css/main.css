@@ -1,0 +1,73 @@
+* {
+    box-sizing:border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    padding: 30px 0;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    display: inline-block;
+    padding: 14px 8px;
+    background-color:#ffffff;
+    border-radius: 7px;
+}
+
+.logo {
+    display: block;
+    width: 261px;
+    height: 17px;
+}
+
+.valyuta-kurs {
+    flex-grow: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    margin-left: 35px;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item:first-child {
+    margin-right: 25px;
+}
+
+.valyuta {
+    color: #2959CE;
+    margin-right: 5px;
+}
+
+.poisk {
+    display: inline-block;
+}
+
+.signing {
+    padding: 13px 20px;
+    background-color: #7296ec;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
